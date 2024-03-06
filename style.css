@@ -1,0 +1,151 @@
+
+/* ***************main body essentials**************** */
+* { padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+   
+
+
+/* *********************font families***************** */
+@font-face {
+    font-family: mermaid;
+    src: url(./assets/fonts/Mermaid1001.ttf);
+}
+
+@font-face { font-family: bebaskai;
+    src: url(./assets/fonts/BebasKai.ttf);}
+    
+
+
+
+/* bg color */
+body { background-color: rgb(255, 255, 255);}
+   
+
+
+/* *********************HEADER***************** */
+.header { background-color: rgb(3, 1, 104);
+    padding: 0.5em;
+    margin: 0;
+    position: relative;
+    right: 0;
+    left: 0;
+    color: white;
+    font-family: bebaskai;
+    font-size: xx-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;}
+   
+/* email */
+.mail{
+    text-decoration: 0;
+    color: rgb(71, 93, 218);
+}
+
+
+/* *********************PANEL SETTING***************** */
+.info { color: white;
+    font-size: large;
+    display: inline-block;}
+   
+
+
+.profile { height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;}
+
+img {  height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    left: 13px;
+    bottom: 5px;}
+
+.panel {background-color: rgb(236, 233, 54);
+    height: 550px;
+    width: 20%;
+    position: fixed;
+    margin-top: 6.5em;}
+
+.links>a { color: Black;
+    font-size: x-large;
+    display: block;
+    text-align: center;
+    text-decoration: none;}
+
+.links>a:hover { color: rgb(4, 11, 104);}
+   
+
+/* ****************************WRITTING CONTENT***************** */
+.content {position: absolute;
+    left: 20%;
+    top: 1.5em;
+    font-size: larger;
+    padding-top: 8em;
+    margin-left: 2em;
+font-family: mermaid;}
+
+    /* about pictures */
+#linkedin {height: 50px;
+    width: 50px;
+    top: 17em;}
+    
+#github {height: 50px;
+    width: 50px;
+    top: 17em;
+    left: 5em;}
+    
+#twitter { height: 53px;
+    width: 53px;
+    top: 17em;
+    left: 9em;
+}
+
+#fb { height: 53px;
+    width: 60px;
+    top: 17em;
+    left: 13em;}
+
+    /* logos in skills */
+    .logos {
+        height: 55px;
+        width: 55px;
+        position: relative;
+        margin: 10px;}
+
+        #ts{
+            height: 49px;
+            width: 60px;
+            margin: 10px;
+            position: relative;
+        }
+   
+
+
+        
+    /* horizontal line */
+#hr { margin-top: 12em;}
+   
+
+/* dates */
+.date {color: rgb(133, 48, 14);
+    float: right;}
+    
+    /* listing */
+    i{ color: rgb(134, 134, 129);
+        padding: 5px;}
+
+
+       
+        
+    
+
+
+
+    
